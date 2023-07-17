@@ -1,5 +1,19 @@
-<nav class="navbar fixed-bottom navbar-light bg-light">
+<nav class="navbar navbar-expand-lg sticky-top  navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Fixed bottom</a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Maps 
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="/leaflet">Leaflet</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
